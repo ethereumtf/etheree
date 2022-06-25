@@ -23,11 +23,22 @@ export default function ExampleUI({
       {/*
         ⚙️ Here is an example UI that displays and sets the purpose in your smart contract:
       */}
+
+      <Events
+        contracts={readContracts}
+        contractName="YourContract"
+        eventName="SetPurpose"
+        localProvider={localProvider}
+        mainnetProvider={mainnetProvider}
+        startBlock={1}
+      />
+
       <div style={{ border: "1px solid #cccccc", padding: 16, width: 400, margin: "auto", marginTop: 64 }}>
-        <h2>Example UI:</h2>
-        <h4>purpose: {purpose}</h4>
+        <h2>Etheree "Receiver" Registration</h2>
+        <h4>Registered Address: {purpose}</h4>
         <Divider />
         <div style={{ margin: 8 }}>
+          Input your address.
           <Input
             onChange={e => {
               setNewPurpose(e.target.value);
@@ -57,7 +68,7 @@ export default function ExampleUI({
               console.log(await result);
             }}
           >
-            Set Purpose!
+            Register your address to Etheree
           </Button>
         </div>
         <Divider />
@@ -70,6 +81,8 @@ export default function ExampleUI({
           ensProvider={mainnetProvider}
           fontSize={16}
         />
+        <Divider />
+
         <Divider />
         {/* use utils.formatEther to display a BigNumber: */}
         <h2>Your Balance: {yourLocalBalance ? utils.formatEther(yourLocalBalance) : "..."}</h2>
