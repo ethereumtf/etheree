@@ -1,0 +1,109 @@
+{
+  "main": {
+    "name":"Ethereum Elementary Earnings",
+    "description":"Etheree(EEE) stands for Ethereum-based Elementary Earnings. Etheree's goal is to realize the ideal of providing a minimum earning to those in need, not a lot of income.",
+    "image":"e3_icon.png",
+    "bio":"Etheree(EEE) is a type of universal basic income that offers minimal earnings. Etheree consists of three main parts: Giver, Receiver, and Supporter.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "myethereumtf@gmail.com",
+    "phone": "555-555-5555",
+    "github":"",
+    "project":"",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"./images/etheree_whitepaper_cover.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"The donation status of various assets is disclosed transparently.",
+    "education":[
+      {
+        "school":"How it Works?",
+        "degree":"Register your wallet address to receive minimal earnings.",
+        "graduated":"For Receivers.",
+        "description":"Etheree(EEE) is paid simply by registering your wallet address."
+      },
+      {
+        "school":"Level management system.",
+        "degree":"The receiver provides additional information and becomes higher level.",
+        "graduated":"Smart payments",
+        "description":"Additional earnings are paid according to the situation and event."
+      }
+    ],
+    "work":[
+      {
+        "company":"Donation Pool.",
+        "title":"Donate in a variety of currencies. (Fiat currency, coin, token, etc.)",
+        "years":"For Givers.",
+        "description":"Various assets donated by givers are safely custody in the donation pool."
+      },
+      {
+        "company":"Help worldwide.",
+        "title":"Delivering the value from developed countries to the world.",
+        "years":"By Supporters",
+        "description":"The value of one dollar in developed countries is different from its value in developing countries."
+      }
+    ],
+    "skills":[
+      {
+        "name":"USD",
+        "level":"43%"
+      },
+      {
+        "name":"Bitcoin",
+        "level":"32%"
+      },
+      {
+        "name":"Ethereum",
+        "level":"27%"
+      },
+      {
+        "name":"USDC",
+        "level":"16%"
+      },
+      {
+        "name":"XRP",
+        "level":"23%"
+      },
+      {
+        "name":"BNB",
+        "level":"30%"
+      },
+      {
+        "name":"Solana",
+        "level":"20%"
+      }
+    ]
+  }
+}
