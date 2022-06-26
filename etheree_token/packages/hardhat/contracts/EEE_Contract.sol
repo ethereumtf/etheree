@@ -15,7 +15,7 @@ contract EEE_Contract is ERC20 {
   constructor() public ERC20('ETHEREE', 'EEE') {
     // _mint() 1000 * 10 ** 18 to msg.sender
     // 10 Bilion * 1000 tokens * 12 months * 100 years
-    _mint(msg.sender, 10000000000 * 1000 * 12 * 100 * 10**18);
+    _mint(msg.sender, 12000000000000000 * 10**18);
   }
 
   function mint(address to, uint256 amount) external {

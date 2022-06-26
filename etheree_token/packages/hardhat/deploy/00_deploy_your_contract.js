@@ -26,7 +26,7 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
   });
 
   // Getting a previously deployed contract
-  const YourContract = await ethers.getContract("EEE_Contract", deployer);
+  const EEE_Contract = await ethers.getContract("EEE_Contract", deployer);
 
   const result = await EEE_Contract.transfer(
     "0xB1101c8f75E91286420A372A5812DFC0A7d42FAF", ethers.utils.parseEther("1000"));
