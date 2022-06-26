@@ -9,8 +9,6 @@ contract YourContract {
 
   event SetPurpose(address sender, string purpose);
 
-  event RegisterNewAddress(address sender, string registeredAddress)
-
   string public purpose = "Building Unstoppable Apps!!!";
 
   constructor() payable {
@@ -18,15 +16,9 @@ contract YourContract {
   }
 
   function setPurpose(string memory newPurpose) public {
-      purpose = newPurpose;
+      purpose = purpose + newPurpose;
       console.log(msg.sender,"set purpose to",purpose);
       emit SetPurpose(msg.sender, purpose);
-  }
-
-  function registerNewAddress(string memory newAddress) public {
-      registeredAddress = newAddress;
-      console.log(msg.sender,"Registered new address of ", registeredAddress);
-      emit RegisterNewAddress(msg.sender, registeredAddress);
   }
 
   // to support receiving ETH by default

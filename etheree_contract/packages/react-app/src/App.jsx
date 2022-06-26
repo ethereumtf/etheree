@@ -293,11 +293,11 @@ function App(props) {
         <Menu.Item key="/debug">
           <Link to="/debug">Smart Contracts</Link>
         </Menu.Item>
+        <Menu.Item key="/exampleui">
+          <Link to="/exampleui">Register on Etheree!</Link>
+        </Menu.Item>
         <Menu.Item key="/hints">
           <Link to="/hints">Subscribe Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/exampleui">
-          <Link to="/exampleui">ExampleUI</Link>
         </Menu.Item>
         <Menu.Item key="/mainnetdai">
           <Link to="/mainnetdai">Donate to Etheree!</Link>
