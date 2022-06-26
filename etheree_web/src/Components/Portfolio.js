@@ -27,7 +27,6 @@ class Portfolio extends Component {
             <div className="twelve columns collapsed">
               <h1>Donate any asset you want and become a “Giver” on Etheree.</h1>
               <h1>All donated assets are disclosed transparently.</h1>
-
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
