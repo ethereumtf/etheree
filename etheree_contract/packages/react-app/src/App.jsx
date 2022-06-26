@@ -287,24 +287,11 @@ function App(props) {
         USE_NETWORK_SELECTOR={USE_NETWORK_SELECTOR}
       />
       <Menu style={{ textAlign: "center", marginTop: 20 }} selectedKeys={[location.pathname]} mode="horizontal">
+
         <Menu.Item key="/">
-          <Link to="/">What is Etheree?</Link>
+          <Link to="/exampleui"><h1>Register your address on Etheree!</h1></Link>
         </Menu.Item>
-        <Menu.Item key="/debug">
-          <Link to="/debug">Smart Contracts</Link>
-        </Menu.Item>
-        <Menu.Item key="/exampleui">
-          <Link to="/exampleui">Register on Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/hints">
-          <Link to="/hints">Subscribe Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/mainnetdai">
-          <Link to="/mainnetdai">Donate to Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/subgraph">
-          <Link to="/subgraph">Graph Etheree</Link>
-        </Menu.Item>
+
       </Menu>
 
       <Switch>
