@@ -288,22 +288,7 @@ function App(props) {
       />
       <Menu style={{ textAlign: "center", marginTop: 20 }} selectedKeys={[location.pathname]} mode="horizontal">
         <Menu.Item key="/">
-          <Link to="/">What is Etheree?</Link>
-        </Menu.Item>
-        <Menu.Item key="/debug">
-          <Link to="/debug">Smart Contracts</Link>
-        </Menu.Item>
-        <Menu.Item key="/hints">
-          <Link to="/hints">Subscribe Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/exampleui">
-          <Link to="/exampleui">ExampleUI</Link>
-        </Menu.Item>
-        <Menu.Item key="/mainnetdai">
-          <Link to="/mainnetdai">Donate to Etheree!</Link>
-        </Menu.Item>
-        <Menu.Item key="/subgraph">
-          <Link to="/subgraph">Graph Etheree</Link>
+          <h1><Link to="/debug">Pay Etheree Earnings!</Link></h1>
         </Menu.Item>
       </Menu>
 
