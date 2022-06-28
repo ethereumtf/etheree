@@ -32,6 +32,11 @@ class Portfolio extends Component {
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
                 {projects}
+                <iframe
+                  src="https://app.uniswap.org/#/swap?outputCurrency=0xa112CF7aBC1f892a229034eA541aa54057f0Cf55"
+                  height="440px"
+                  width="360px"
+                />
               </div>
             </div>
           </div>
