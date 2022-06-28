@@ -25,8 +25,10 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Donate any asset you want and become a “Giver” on Etheree.</h1>
-              <h1>All donated assets are disclosed transparently.</h1>
+              <h3>Donate any asset you want and become a “Giver” on Etheree.</h3>
+              <h3>All donated assets are disclosed transparently.</h3>
+              <h3>You can donate after exchanging at UniSwap!</h3>
+              <p/>
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
@@ -34,8 +36,8 @@ class Portfolio extends Component {
                 {projects}
                 <iframe
                   src="https://app.uniswap.org/#/swap?outputCurrency=0xa112CF7aBC1f892a229034eA541aa54057f0Cf55"
-                  height="440px"
-                  width="360px"
+                  height="480px"
+                  width="480px"
                 />
               </div>
             </div>

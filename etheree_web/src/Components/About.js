@@ -45,13 +45,6 @@ class About extends Component {
                   You can support Etheree in a variety of ways and participate in various events to help.
                   </p>
                 </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download WhitePaper
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
           </div>
